@@ -5,12 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>One Piece</title>
     <link rel="icon" href="img/One.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/Style.css">
 </head>
 <body>
     <img src="img/OneLogoBlanco.png" alt="Imagen De titulo" id="TitleImage">
-    <div class="data">
-        <h3>Datos de la serie</h3>
+    <nav id="menu">
+        <h2>
+            <ul class="Menu-horizontal">
+                <li><a href="#Data-general" class="links">Datos de la serie</a></li>
+                <li><a href="#Temporadas" class="links">Temporadas y Capitulos</a></li>
+                <li><a href="#Table" class="links">Personajes</a></li>
+                <li><a href="#Redes" class="links">Redes</a></li>
+                <li><a href="#Promo" class="links">Promocional</a></li>
+            </ul>
+        </h2>
+    </nav>
+    <section class="data" id="Data-general"> 
+        <h2>Datos de la serie</h2>
         <p><strong>Año de estreno Manga:</strong> 1997 <br><strong>Año de estreno Anime:</strong> 1999 <br><strong>Pais de origen:</strong> Japon <br><strong>Géneros:</strong> Shonen, Aventuras, Accion, Fantasia <br><strong>Creador</strong> Eiichiro Oda </p>
         <h3>
             <strong>Sinopsis</strong>
@@ -18,7 +32,10 @@
         <p class="Sinopsis">
             Monkey D. Luffy se niega a que nadie se interponga en su camino para convertirse en Rey de los Piratas. Se lanza a surcar los mares y se convertirá en un capitán dispuesto a no darse por vencido jamás hasta hacerse con el mayor tesoro de la historia: el legendario One Piece.
         </p>
-        <h3>Temporadas</h3>
+        <a href="#menu" class="links">Regresar ⬆️</a>
+    </section>
+    <section class="data" id="Temporadas">
+        <h2>Temporadas</h2>
         <ul class="Saga">
             <li><b>Saga del East Blue:</b> Capítulos 1 a 61</li>
             <li><b>Saga de Arabasta:</b> Capítulos 62 a 135</li>
@@ -30,77 +47,97 @@
             <li><b>Saga de Dressrosa:</b> Capítulos 575 a 746</li>
             <li><b>Saga de Whole Cake Island:</b> Capítulos 747 a 877</li>
             <li><b>Saga de Wano:</b> Capítulos 878 a 1073 y continuando</li>
+            <a href="#menu" class="links">Regresar ⬆️</a>
         </ul>
-    </div>
-    <img src="img/Mugis.jpe" alt="Imagen Promocional" class="Promo">
-    <table border="1">
-        <tr>
-            <th>Luffy</th>
-            <th>Zoro</th>
-            <th>Sanji</th>
-            <th>Nami</th>
-            <th>Usopp</th>
-            <th>Chopper</th>
-            <th>Robin</th>
-            <th>Franky</th>
-            <th>Brook</th>
-            <th>Jinbe</th>
-        </tr>
-        <tr>
-            <td><img src="img/luffy-wano.jpg" alt="Luffy" class="CollumnCharacter">
-            </td>
-            <td><img src="img/Zoro.jpeg" alt="Zoro" class="CollumnCharacter">
-            </td>
-            <td><img src="img/Sanji.jpg" alt="Sanji" class="CollumnCharacter">
-            </td>
-            <td><img src="img/Nami.jpeg" alt="Nami" class="CollumnCharacter">
-            </td>
-            <td><img src="img/Usoop.jpg" alt="Ussop" class="CollumnCharacter">
-            </td>
-            <td><img src="img/Chopper.png" alt="Chopper" class="CollumnCharacter">
-            </td>
-            <td><img src="img/Robin.png" alt="Robin" class="CollumnCharacter">
-            </td>
-            <td><img src="img/Franky.jpeg" alt="Franky" class="CollumnCharacter">
-            </td>
-            <td><img src="img/Brook.png" alt="Brook" class="CollumnCharacter">
-            </td>
-            <td><img src="img/Jinbe.jpg" alt="Jinbe" class="CollumnCharacter">
-            </td>
-        </tr>
-        <tr>
-            <td><cite>Luffy: Es el capitan del barco de los piratas del sombrero de paja y junto a su tripulacion quiere convertirse en el rey de los piratas.</cite></td>
-            <td><cite>Zoro: Es el espadachin y segundo al mando dentro de la tripulacion el se encarga de pelear junto a su capitan cuando hay enemigos poderosos</cite></td>
-            <td><cite>Sanji: Es el cosinero y tercero al mando dentro de la tripulacion es el que se encarga de la comida y tambien es un luchador fuerte junto con Luffy y Zoro</cite></td>
-            <td><cite>Nami: Es la navegante de la tripulacion ella se encarga de que todos lleguen a salvo a su destino surcando los peligrosos mares del mundo</cite></td>
-            <td><cite>Usopp: El es el tirador de la tripulacion encargado de las batallas a larga distancia y el apoyo a sus compañeros a lo lejos experto en armas y muy ingenioso</cite></td>
-            <td><cite>Chopper: El medico de la tripulacion encargado de todas las heridas del grupo y de las enfermedades es tambien uno de los mejores medicos del mundo</cite></td>
-            <td><cite>Robin: Es la arqueologa de la tripulacion encargada de leer los poneglyph que marcan la ruta hacia el one piece</cite></td>
-            <td><cite>Franky: Es el cyborg carpintero del barco encargado de la reparacion y remodelacion del barco para que pueda surcar los mares en las mejores condiciones</cite></td>
-            <td><cite>Brook: Es el musico de la tripulacion encargado de dar alegria en las fiestas y banquetes, tambien es conocido en el mundo como uno de los mejores musicos.</cite></td>
-            <td><cite>Jinbe: Es el timonel del barco encargado de seguir las instrucciones de la navegante y surcar de mejor manera los obstaculos que aparescan en el camino a tierra</cite></td>
-        </tr>
-    </table>
-    <h2><b><a href="https://one-piece.com/index.html" target="_blank" class="Enlace">Sitio Oficial</a></b></h2>
-    <div>
-        <ul class="SocialList">
-            <li>
-                <a href="https://twitter.com/opcom_info" target="_blank">
-                    <img src="img/Background (4).png" alt="enlace A twitter" class="SocialMedia"></a></li>
-            <li>
-                <a href="https://www.instagram.com/onepiece_staff/" target="_blank">
-                    <img src="img/Instagram_icon.png" alt="Instagram Enlace" class="SocialMedia"></a></li>
-            <li>
-                <a href="https://www.youtube.com/channel/UCdAHaWcKdpbT5XkN2Er6BUQ" target="_blank">
-                    <img src="img/Youtube_logo.png" alt="youtube enlace" class="SocialMedia"></a></li>
-            <li>
-                <a href="https://www.tiktok.com/@onepiece.staff.official?_d=secCgYIASAHKAESMgowMbb3BYIv94Oe9w[%E2%80%A6]=client_share&utm_medium=ios&utm_source=copy&source=h5_t&_r=1" target="_blank">
-                    <img src="img/Titos-PhotoRoom.png-PhotoRoom.png" alt="tiktok enlace" class="SocialMedia"></a>
-            </li>
-        </ul>
-    </div>
-    <div class="videoEpico">
-        <iframe width="1120" height="630" src="https://www.youtube.com/embed/vBVU6YLAuxw?si=AeMAPTrqeKtXwDRt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
+    </section>
+    <section id="Table">
+        <h2 class="data">Personajes</h2>
+        <table border="1">
+            <tr>
+                <th>Luffy</th>
+                <th>Zoro</th>
+                <th>Sanji</th>
+                <th>Nami</th>
+                <th>Usopp</th>
+                <th>Chopper</th>
+                <th>Robin</th>
+                <th>Franky</th>
+                <th>Brook</th>
+                <th>Jinbe</th>
+            </tr>
+            <tr>
+                <td><img src="img/luffy-wano.jpg" alt="Luffy" class="CollumnCharacter">
+                </td>
+                <td><img src="img/Zoro.jpeg" alt="Zoro" class="CollumnCharacter">
+                </td>
+                <td><img src="img/Sanji.jpg" alt="Sanji" class="CollumnCharacter">
+                </td>
+                <td><img src="img/Nami.jpeg" alt="Nami" class="CollumnCharacter">
+                </td>
+                <td><img src="img/Usoop.jpg" alt="Ussop" class="CollumnCharacter">
+                </td>
+                <td><img src="img/Chopper.png" alt="Chopper" class="CollumnCharacter">
+                </td>
+                <td><img src="img/Robin.png" alt="Robin" class="CollumnCharacter">
+                </td>
+                <td><img src="img/Franky.jpeg" alt="Franky" class="CollumnCharacter">
+                </td>
+                <td><img src="img/Brook.png" alt="Brook" class="CollumnCharacter">
+                </td>
+                <td><img src="img/Jinbe.jpg" alt="Jinbe" class="CollumnCharacter">
+                </td>
+            </tr>
+            <tr>
+                <td><cite>Luffy: Es el capitan del barco de los piratas del sombrero de paja y junto a su tripulacion quiere convertirse en el rey de los piratas.</cite></td>
+                <td><cite>Zoro: Es el espadachin y segundo al mando dentro de la tripulacion el se encarga de pelear junto a su capitan cuando hay enemigos poderosos</cite></td>
+                <td><cite>Sanji: Es el cosinero y tercero al mando dentro de la tripulacion es el que se encarga de la comida y tambien es un luchador fuerte junto con Luffy y Zoro</cite></td>
+                <td><cite>Nami: Es la navegante de la tripulacion ella se encarga de que todos lleguen a salvo a su destino surcando los peligrosos mares del mundo</cite></td>
+                <td><cite>Usopp: El es el tirador de la tripulacion encargado de las batallas a larga distancia y el apoyo a sus compañeros a lo lejos experto en armas y muy ingenioso</cite></td>
+                <td><cite>Chopper: El medico de la tripulacion encargado de todas las heridas del grupo y de las enfermedades es tambien uno de los mejores medicos del mundo</cite></td>
+                <td><cite>Robin: Es la arqueologa de la tripulacion encargada de leer los poneglyph que marcan la ruta hacia el one piece</cite></td>
+                <td><cite>Franky: Es el cyborg carpintero del barco encargado de la reparacion y remodelacion del barco para que pueda surcar los mares en las mejores condiciones</cite></td>
+                <td><cite>Brook: Es el musico de la tripulacion encargado de dar alegria en las fiestas y banquetes, tambien es conocido en el mundo como uno de los mejores musicos.</cite></td>
+                <td><cite>Jinbe: Es el timonel del barco encargado de seguir las instrucciones de la navegante y surcar de mejor manera los obstaculos que aparescan en el camino a tierra</cite></td>
+            </tr>
+        </table>
+        <a href="#menu" class="links">Regresar ⬆️</a>
+    </section>
+    <section id="Redes">
+        <h2 class="data">Redes</h2>
+        <h3><b><a href="https://one-piece.com/index.html" target="_blank" class="Enlace links">Sitio Oficial</a></b></h3>
+        <div>
+            <ul class="SocialList">
+                <li>
+                    <a href="https://twitter.com/opcom_info" target="_blank" class="links">
+                        <img src="img/Background (4).png" alt="enlace A twitter" class="SocialMedia">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/onepiece_staff/" target="_blank" class="links">
+                        <img src="img/Instagram_icon.png" alt="Instagram Enlace" class="SocialMedia">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UCdAHaWcKdpbT5XkN2Er6BUQ" target="_blank" class="links">
+                        <img src="img/Youtube_logo.png" alt="youtube enlace" class="SocialMedia">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.tiktok.com/@onepiece.staff.official?_d=secCgYIASAHKAESMgowMbb3BYIv94Oe9w[%E2%80%A6]=client_share&utm_medium=ios&utm_source=copy&source=h5_t&_r=1" target="_blank" class="links">
+                        <img src="img/Titos-PhotoRoom.png-PhotoRoom.png" alt="tiktok enlace" class="SocialMedia">
+                    </a>
+                </li>
+            </ul>
+            <a href="#menu" class="links">Regresar ⬆️</a>
+        </div>
+    </section>
+    <section id="Promo">
+        <h2 class="data">Promocionales</h2>
+        <img src="img/Mugis.jpe" alt="Imagen Promocional" class="Promo">
+        <div class="videoEpico">
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/vBVU6YLAuxw?si=AeMAPTrqeKtXwDRt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <a href="#menu" class="links">Regresar ⬆️</a>
+    </section>
 </body> 
 </html>
