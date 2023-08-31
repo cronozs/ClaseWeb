@@ -1,0 +1,41 @@
+:root {
+    --darkColor: #181535;
+    --clearColor: #e3eed3;
+    --linkColor: #e88d43;
+  }
+
+html{
+    background-color: var(--darkColor);
+    color: var(--clearColor);
+    font-family: 'Gluten', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+}
+
+a{
+    color: var(--linkColor);
+}
+
+a:hover{
+    color: var(--clearColor);
+}
+
+img, iframe,  table{
+    max-width: 100%;
+}
+
+.lines{
+    border: 3px double var(--clearColor);
+}
+
+.centertext{
+    text-align: center;
+}
+
+.linkcolor{
+    color: var(--linkColor);
+}
+
+.borderimage{
+    border-radius: 50%;
+}
