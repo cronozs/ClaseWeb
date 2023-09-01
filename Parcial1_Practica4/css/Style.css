@@ -14,6 +14,7 @@ html{
 
 a{
     color: var(--linkColor);
+    text-decoration: none;
 }
 
 a:hover{
@@ -21,8 +22,15 @@ a:hover{
 }
 
 img, iframe,  table{
-    max-width: 100%;
+    width: min(100% -15px, 850px);
+    margin-inline: auto;
+    text-align: center;
 }
+
+header{
+    text-align: center;
+}
+
 
 .lines{
     border: 3px double var(--clearColor);
@@ -38,4 +46,8 @@ img, iframe,  table{
 
 .borderimage{
     border-radius: 50%;
+}
+
+.limtImage{
+    max-width: 60%;
 }
